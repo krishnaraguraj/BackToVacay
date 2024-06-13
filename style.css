@@ -4,21 +4,30 @@ body{
     background-color: rgb(255, 255, 255);
     font-family: "Poppins", sans-serif;
 }
+li{
+    text-decoration: none;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: rgb(28, 28, 85);
+}
 
 .nav{
     display: flex;
-    justify-content:space-evenly;
+    flex-wrap: wrap;
+    justify-content:space-between;
     background-color: rgb(248, 248, 248);
     border: 1px solid azure;
     border-radius: 0px ;
-    position:sticky;
+
 }
 .top-list{
     display: flex;
-    justify-content:center;
     padding: 10px;
+    margin-left: 65px;
     gap: 50px;
-    list-style: none;
+    justify-content: center;
     
 }
 
@@ -27,9 +36,9 @@ body{
     padding: 8px;
 }
 .add-nav{
-    background-color: rgba(226, 221, 224, 0.732);
+    background-color: rgba(15, 51, 101, 0.993);
     border-radius: 100px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(49, 45, 45, 0.1);
     
 }
 .add-nav1{
@@ -39,7 +48,7 @@ body{
     gap: 50px;
 }
 label{
-    color: rgba(23, 23, 18, 0.69);
+    color: rgba(255, 255, 255, 0.955);
     padding: 5px;
 }
 input{
@@ -76,7 +85,7 @@ button{
     box-shadow: 0px 2px 8px 0px rgb(0,0,0,0.2);
     cursor: pointer;
 }
-.footer{
+.footer1{
     margin-top: 10px;
     background-color: rgba(205, 204, 204, 0.314);
     width: 100%;
@@ -85,11 +94,19 @@ button{
 }
 .details{
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
     color: black;
     
 }
-a{
+
+.footer2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    gap: 50px;
+    background-color: rgba(205, 204, 204, 0.314);
+}
+ul{
     text-decoration: none;
-    color: rgb(28, 28, 85);
 }
